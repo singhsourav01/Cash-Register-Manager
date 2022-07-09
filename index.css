@@ -1,0 +1,101 @@
+
+
+html, body{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    background: linear-gradient(315deg, #f5b2b2, #ccd9a6 74%);
+
+}
+
+.main{
+   
+}
+
+.container{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.btn{
+    width: 40%;
+    margin-top: 9px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    color: black;
+}
+
+.btn:hover{
+    background-color: rgb(204, 189, 189);
+}
+
+input{
+    width: 40%;
+    text-align: center;
+    opacity: 0.8;
+    margin: 0px 0px 5px 0px;
+    border-radius: 5px;
+}
+
+label{
+    margin: 0px;
+    margin: 0px 0px 5px 0px;
+
+}
+
+table th{
+    
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: tomato;
+}
+
+table td{
+    width: 80px;
+    height: 38px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    text-align: center;
+}
+table tr{
+    margin: 0px 5px;
+    border: 0px;
+}
+
+.heading{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 750px) {
+    table th{
+        display: none;
+    } 
+    table td{
+        width: 70px;
+        height: 38px;
+        padding: 0px;
+        border-radius: 5px;
+        background-color: dodgerblue;
+        text-align: center;
+    }
+
+    .container{
+        
+        width: 100%;
+        height: 50%;
+        border-radius: 6px;
+    }
+}
